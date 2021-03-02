@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MicroWordClockTut)(type Legacy)(uri ${KIPRJMOD}/MicroWordClockTut.lib)(options "")(descr ""))
+)

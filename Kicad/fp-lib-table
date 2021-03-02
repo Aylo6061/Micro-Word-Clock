@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MicroWordClockTut)(type KiCad)(uri ${KIPRJMOD}/MicroWordClockTut.pretty)(options "")(descr ""))
+)
