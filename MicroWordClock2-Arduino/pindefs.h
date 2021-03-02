@@ -11,23 +11,41 @@
 #define PIN_BUTTON PD7
 
 // Mapping Matrix Row/Col numbers to Matrix pins
-#define MTX_ROW1 MTX_PIN9
-#define MTX_ROW2 MTX_PIN14
-#define MTX_ROW3 MTX_PIN8
-#define MTX_ROW4 MTX_PIN12
-#define MTX_ROW5 MTX_PIN1
-#define MTX_ROW6 MTX_PIN7
-#define MTX_ROW7 MTX_PIN2
-#define MTX_ROW8 MTX_PIN5
+#define MTX_ROW1 MTX_PIN8
+#define MTX_ROW2 MTX_PIN7
+#define MTX_ROW3 MTX_PIN6
+#define MTX_ROW4 MTX_PIN5
+#define MTX_ROW5 MTX_PIN13
+#define MTX_ROW6 MTX_PIN14
+#define MTX_ROW7 MTX_PIN15
+#define MTX_ROW8 MTX_PIN16
 
-#define MTX_COL1 MTX_PIN13
+// #define MTX_ROW1 MTX_PIN13
+// #define MTX_ROW2 MTX_PIN14
+// #define MTX_ROW3 MTX_PIN15
+// #define MTX_ROW4 MTX_PIN16
+// #define MTX_ROW5 MTX_PIN8
+// #define MTX_ROW6 MTX_PIN7
+// #define MTX_ROW7 MTX_PIN6
+// #define MTX_ROW8 MTX_PIN5
+
+// #define MTX_COL1 MTX_PIN1 
+// #define MTX_COL2 MTX_PIN9 
+// #define MTX_COL3 MTX_PIN10
+// #define MTX_COL4 MTX_PIN11
+// #define MTX_COL5 MTX_PIN12
+// #define MTX_COL6 MTX_PIN4 
+// #define MTX_COL7 MTX_PIN3 
+// #define MTX_COL8 MTX_PIN2 
+
+#define MTX_COL1 MTX_PIN4
 #define MTX_COL2 MTX_PIN3
-#define MTX_COL3 MTX_PIN4
-#define MTX_COL4 MTX_PIN10
-#define MTX_COL5 MTX_PIN6
-#define MTX_COL6 MTX_PIN11
-#define MTX_COL7 MTX_PIN15
-#define MTX_COL8 MTX_PIN16
+#define MTX_COL3 MTX_PIN2
+#define MTX_COL4 MTX_PIN1
+#define MTX_COL5 MTX_PIN9
+#define MTX_COL6 MTX_PIN10
+#define MTX_COL7 MTX_PIN11
+#define MTX_COL8 MTX_PIN12
 
 #define MTX_PIN1  SIG_B1
 #define MTX_PIN2  SIG_B2
