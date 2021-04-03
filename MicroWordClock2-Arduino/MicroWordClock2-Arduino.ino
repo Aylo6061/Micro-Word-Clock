@@ -41,13 +41,13 @@ volatile char disp[8]={
 
 char testdisp[8]={
   0B11111111,
-  0B11111111,
-  0B11111111,
-  0B11111111,
-  0B11111111,
-  0B11111111,
-  0B11111111,
-  0B11111111,
+  0B00000011,
+  0B00000101,
+  0B00001001,
+  0B00010001,
+  0B00100001,
+  0B01000001,
+  0B10000001,
 };
 
 // RTC stuff
@@ -140,6 +140,7 @@ void prepareDisplay() {
   FOR_ALLROWS {
     disp[r]=B00000000;
     FOR_ALLCOLS {
+      // disp[r]|=testdisp[r]; //uncomment this line to output test code
       if((clockmode != SET_MIN || !blinknow))
         disp[r] |= minutes[disp_min][r] & (B10000000 >> c);
       if((clockmode != SET_HRS || !blinknow))
