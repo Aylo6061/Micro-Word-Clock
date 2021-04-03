@@ -23,10 +23,10 @@ See the YouTube video [here](https://www.youtube.com/watch?v=9ko9CeylUTs).
 | C2         | 1uF cap      | 2012 metric / 0805 imperial  | 1276-6471-1-ND                                                                                                                |
 | SW1         | SMD push button    | "nanoT" aka VERY small                   | 108-NANOT240BSCT-ND                                                  |
 | Y1       | 32.768 kHz crystal | 3216 metric / 1206 imperial  | 1908-1314-1-ND                                                                                                              |
-| LED matrix | 8x8 matrix         | 20x20mm                      | [8x8 adafruit](https://www.adafruit.com/product/454https://www.adafruit.com/product/454)*  |
+| LED matrix | 8x8 matrix         | 20x20mm                      | [8x8 adafruit](https://www.adafruit.com/product/454https://www.adafruit.com/product/454)  |
 | J1         | USB connector      | smd connector | 609-4613-1-ND|
 |BT1 | 3v lithium battery | thru hole tabs|	P192-ND | 
-| PCB        |                    | 20x20mm                      | [Currently N/A]()                                                                     
+| PCB        |                    | 20x20mm                      | [Order from osh park](https://oshpark.com/shared_projects/m8JDYR6z)                                                                     
 ## NB!!! Here be dragons!!! Warnings etc.
 
 You will require an In-System Programmer (ISP) to write the firmware onto the microcontroller.
